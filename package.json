@@ -1,0 +1,32 @@
+{
+  "name": "hard-photo-reddit",
+  "version": "1.0.0",
+  "description": "app for refactoring phase 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amercury/hard-photo-reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amercury/hard-photo-reddit/issues"
+  },
+  "homepage": "https://github.com/amercury/hard-photo-reddit#readme",
+  "dependencies": {
+    "connect-mongodb-session": "^2.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
